@@ -213,7 +213,7 @@ a {
   justify-items: center;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
   .grid--1x2 {
     grid-template-columns: 1fr 1fr;
   }
@@ -243,6 +243,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 40px;
 }
 .step__text {
   display: flex;
@@ -271,6 +272,7 @@ a {
     display: block;
     max-width: 420px;
     margin-left: 20px;
+    margin-bottom: 20px;
   }
   .step__discription {
     font-size: 1.5rem;
@@ -390,5 +392,26 @@ a {
 
   .hero_section {
     background-image: url(/image/hero_image_desktop.png);
+  }
+}
+
+/* explian block */
+.explain_block {
+  row-gap: 20px;
+}
+
+/* step block */
+
+.step_container {
+  margin-bottom: 50px;
+}
+
+@media screen and (min-width: 1024px) {
+  .step_container {
+    margin-bottom: 100px;
+  }
+
+  .step_container:nth-of-type(even) .step_data_container {
+    order: 2;
   }
 }
