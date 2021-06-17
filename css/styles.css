@@ -150,7 +150,7 @@ a {
 .block--skewed-right {
   padding-bottom: calc(var(--padding-vertical) + 4rem);
   clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 80%);
-  background: #111;
+
 }
 
 .block--skewed-left {
@@ -305,6 +305,10 @@ a {
 
 .hero_section {
   height: 680px;
+   background-image: url(/image/hero_image_mobile.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .hero_section .container {
@@ -334,11 +338,13 @@ a {
   text-align: center;
   margin-inline: auto;
   margin-bottom: 20px;
+ 
 }
 .hero_section .btn__container {
   display: flex;
   justify-content: center;
 }
+
 
 @media screen and (max-width: 570px) {
 .hero_section h1 {
