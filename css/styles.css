@@ -431,6 +431,9 @@ a {
 .why_us h2 {
   font-size: 3rem ;
 }
+.why_us .block__header {
+  margin-bottom: 0;
+}
 
 @media screen and (min-width: 1024px) {
   .why_us p{
@@ -441,5 +444,35 @@ a {
 /* 
 footer */
 
+.footer {
+  height: 9rem;
+  padding-bottom: 0;
+  padding-top: 0;
+  font-size: 1.4rem;
+}
+
+.footer__brand {
+  height: 4.5rem;
+  border-bottom: 1px solid rgb(256, 256,256 ,.5);
+  color: rgb(256, 256,256 ,.5);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.footer__brand .icon {
+  fill: rgb(256, 256,256 ,.5);
+  width: 130px;
+}
+
+.footer__brand a {
+  color: #1d4070;
+}
+
+.footer__copy_right{
+  height: 4.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
 
 
