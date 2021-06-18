@@ -405,6 +405,9 @@ a {
 .step_container {
   margin-bottom: 50px;
 }
+.step_container:nth-of-type(3) {
+    margin-bottom: 0;
+  }
 
 @media screen and (min-width: 1024px) {
   .step_container {
@@ -415,3 +418,24 @@ a {
     order: 2;
   }
 }
+
+
+/* why_us */
+
+.why_us p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.8rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .why_us p{
+    max-width: 995px;
+    margin: auto;
+}
+}
+/* 
+footer */
+
+
+
